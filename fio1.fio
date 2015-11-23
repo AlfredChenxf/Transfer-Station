@@ -1,0 +1,9 @@
+[writer]
+ioengine=libaio
+iodepth=4
+rw=write
+bs=64k
+direct=0
+size=3000G
+numjobs=16
+filename=/dev/rbd1
